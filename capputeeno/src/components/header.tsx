@@ -36,14 +36,12 @@ const Logo = styled.a`
 
 export function Header(props: HeaderProps) {
   return (
-    <div>
-      <TagHeader>
-        <Logo className={saira_Stencil_One.className}>Capputeeno</Logo>
-        <div>
-          <PrimaryInputWSearchIcon placeholder="Procurando por algo específico?" />
-          <CartControl />
-        </div>
-      </TagHeader>
-    </div>
+    <TagHeader>
+      <Logo className={saira_Stencil_One.className}>Capputeeno</Logo>
+      <div>
+        <PrimaryInputWSearchIcon placeholder="Procurando por algo específico?" />
+        <CartControl />
+      </div>
+    </TagHeader>
   );
 }
